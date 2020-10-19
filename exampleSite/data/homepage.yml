@@ -1,17 +1,41 @@
-####################### Banner #########################
-banner:
-  title : "We want to know more about you"
-  image : "images/banner-art.jpg"
-  copyright : "Copyright @ Landing Page - Sollar"
-  button:
-    enable : true
-    label : "Pricing"
-    link : "/pricing/"
-
 ##################### Social ##########################
 description:
   content : "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum."
       
+
+
+#################  Menu ##############################
+pricing:
+  enable : true
+  title : "Our Easy <span>PRICE</span>"
+  description: " Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco"
+  subtitle : "FEATURED ON THE WEEK"
+  pricing_item:
+  - title: "Pancakes n' Such Titas"
+    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim&&"
+    price : "$ 125.00"
+    image: "images/404.jpg"
+
+  - title: "Caesar Salad"
+    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim&&"
+    price : "$ 100.00"
+    image: ""
+
+  - title: "Steak with a Garlic and Parsley Risotto"
+    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim&&"
+    price : "$ 20.00"
+    image: ""
+
+  - title: "Meat of Skewers"
+    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim&&"
+    price : "$ 45.00"
+    image: ""
+
+  - title: "Pancakes n' Such"
+    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim&&"
+    price : "$ 25.00"
+    image: ""
+
 
 
 ######################### Service #####################
