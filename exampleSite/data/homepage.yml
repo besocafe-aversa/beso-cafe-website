@@ -2,7 +2,19 @@
 description:
   content : "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum."
       
-
+################### Gallery ###################
+gallery:
+  enable : true
+  title : "molto altro ancora!"
+  images:
+    - "images/slider/slider-img-1.jpg"
+    - "images/slider/slider-img-2.jpg"
+    - "images/slider/slider-img-3.jpg"
+    - "images/slider/slider-img-4.jpg"
+    - "images/slider/slider-img-1.jpg"
+    - "images/slider/slider-img-2.jpg"
+    - "images/slider/slider-img-3.jpg"
+    - "images/slider/slider-img-4.jpg"
 
 #################  Menu ##############################
 pricing:
@@ -11,32 +23,54 @@ pricing:
   description: " Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco"
   subtitle : "FEATURED ON THE WEEK"
   pricing_item:
-  - title: "Pancakes n' Such Titas"
-    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim&&"
-    price : "$ 125.00"
-    image: "images/404.jpg"
+  - title : "Caffè"
+    description : "Realizziamo sempre, per i nostri clienti, un caffè gustoso e aromatico."
+    price : "€ 0.90"
+    image : "images/products/caffè.jpg"
 
-  - title: "Caesar Salad"
-    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim&&"
-    price : "$ 100.00"
-    image: ""
+  - title : "Croissant"
+    description : "L’unica crema che fa bene al corpo ridonandogli slancio e vitalità è quella che sta dentro al cornetto appena sfornato."
+    price : "€ 100.00"
+    image : "images/products/croissant.jpeg"
 
-  - title: "Steak with a Garlic and Parsley Risotto"
-    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim&&"
-    price : "$ 20.00"
-    image: ""
+  - title : "Drink"
+    description : "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim"
+    price : "€ 20.00"
+    image : "images/products/drink.jpeg"
 
-  - title: "Meat of Skewers"
-    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim&&"
-    price : "$ 45.00"
-    image: ""
+  - title : "Pizza"
+    description : "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim&&"
+    price : "€ 45.00"
+    image : "images/products/pizza.jpg"
 
-  - title: "Pancakes n' Such"
-    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim&&"
-    price : "$ 25.00"
-    image: ""
+  - title : "Spremuta"
+    description : "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim&&"
+    price : "€ 25.00"
+    image : "images/products/spremuta.jpeg"
 
+#################  Partners  ##############################
+partners:
+  enable: true
+  partner_item:
+  - title: "Acquaviva"
+    img: "images/partners/acquaviva.png"
+    large: true
 
+  - title: "Nèstle"
+    img: "images/partners/nestle.png"
+    large: false
+
+  - title: "Heineken"
+    img: "images/partners/heineken.png"
+    large: true
+
+  - title: "Ichnusa"
+    img: "images/partners/ichnusa.png"
+    large: false
+
+  - title: "Coca-cola"
+    img: "images/partners/cocacola.png"
+    large: true
 
 ######################### Service #####################
 service:

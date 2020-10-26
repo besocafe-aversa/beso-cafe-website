@@ -19,16 +19,16 @@ name = "Quick Start"
 URL = "terms-conditions"
 name = "Terms & Conditions"
 [[menu.main]]
-URL = "blog"
-name = "Blog"
+URL = "Prodotti"
+name = "Prodotti"
 weight = 1
 [[menu.main]]
-URL = "pricing"
-name = "Pricing"
+URL = "Chi Siamo"
+name = "Chi Siamo"
 weight = 2
 [[menu.main]]
-URL = "contact"
-name = "Contact"
+URL = "Contattaci"
+name = "Contattaci"
 weight = 3
 [[menu.main]]
 URL = "faq"
@@ -53,17 +53,19 @@ description = "This is meta description"
 logo = "images/logo.png"
 logo_width = "200px"
 [params.company]
-address = "7657 Cl. 6, Centro"
-city = "Cartago, Valle Del Cauca"
-country = "Colombia"
-email = "contact@sicily.com"
-phone = "+57 315 270 2727"
+address = "Via Presidio, 10"
+city = "Aversa (CE)"
+country = "Italy"
+email = "contact@besocafè.it"
+phone = "081 0587238"
 [params.navigation_button]
 enable = true
-label = "Get it touch"
+label = "Whatsapp"
 link = "contact"
 [[params.plugins.css]]
 link = "plugins/bootstrap/bootstrap.min.css"
+[[params.plugins.css]]
+link = "plugins/font-awesome/css/brands.min.css"
 [[params.plugins.css]]
 link = "plugins/themify-icons/themify-icons.css"
 [[params.plugins.css]]
@@ -74,6 +76,8 @@ link = "plugins/custom/clean-footer.css"
 link = "plugins/jQuery/jquery.min.js"
 [[params.plugins.js]]
 link = "plugins/bootstrap/bootstrap.min.js"
+[[params.plugins.js]]
+link = "plugins/font-awesome/js/all.min.js"
 [[params.plugins.js]]
 link = "plugins/slick/slick.min.js"
 [params.preloader]
