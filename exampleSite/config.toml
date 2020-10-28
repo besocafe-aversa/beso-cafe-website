@@ -31,15 +31,15 @@ URL = "Contattaci"
 name = "Contattaci"
 weight = 3
 [[menu.main]]
-URL = "faq"
-name = "FAQ"
+URL = "blog"
+name = "blog"
 weight = 4
 [[menu.product]]
 URL = "pricing"
 name = "Pricing"
 [[menu.product]]
-URL = "platform"
-name = "Platform"
+URL = "blog"
+name = "blog"
 [[menu.product]]
 URL = "faq"
 name = "FAQ"
