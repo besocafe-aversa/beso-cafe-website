@@ -1,5 +1,5 @@
-baseURL = " https://luigibarbato.github.io/besocafe.github.io/"
-disqusShortname = "sicily-hugo-theme"
+baseURL = "https://luigibarbato.github.io/besocafe.github.io/"
+disqusShortname = "besocafè"
 googleAnalytics = ""
 languageCode = "it-it"
 languageName = "It"
@@ -19,37 +19,21 @@ name = "Quick Start"
 URL = "terms-conditions"
 name = "Terms & Conditions"
 [[menu.main]]
-URL = "Prodotti"
-name = "Prodotti"
+URL = "menu"
+name = "Menu"
 weight = 1
 [[menu.main]]
-URL = "Chi Siamo"
-name = "Chi Siamo"
+URL = "gallery"
+name = "Gallery"
 weight = 2
 [[menu.main]]
-URL = "Contattaci"
+URL = "contattaci"
 name = "Contattaci"
 weight = 3
-[[menu.main]]
-URL = "blog"
-name = "blog"
-weight = 4
-[[menu.product]]
-URL = "pricing"
-name = "Pricing"
-[[menu.product]]
-URL = "blog"
-name = "blog"
-[[menu.product]]
-URL = "faq"
-name = "FAQ"
-[[menu.product]]
-URL = "privacy-policy"
-name = "Privacy Policy"
 [params]
-author = "cristianmarint"
+author = "Beso Cafè"
 contact_form_action = "#"
-description = "This is meta description"
+description = "Lounge Bar from Aversa."
 logo = "images/logo.png"
 logo_width = "200px"
 [params.company]
@@ -72,6 +56,8 @@ link = "plugins/themify-icons/themify-icons.css"
 link = "plugins/slick/slick.css"
 [[params.plugins.css]]
 link = "plugins/custom/clean-footer.css"
+[[params.plugins.css]]
+link = "plugins/animate/animate.min.css"
 [[params.plugins.js]]
 link = "plugins/jQuery/jquery.min.js"
 [[params.plugins.js]]
@@ -80,28 +66,18 @@ link = "plugins/bootstrap/bootstrap.min.js"
 link = "plugins/font-awesome/js/all.min.js"
 [[params.plugins.js]]
 link = "plugins/slick/slick.min.js"
+[[params.plugins.js]]
+link = "plugins/wow/wow.min.js"
 [params.preloader]
-enable = false
+enable = true
 preloader = ""
-[[params.footer]]
-rol_email = "pedropiedras@sicily.com"
-rol_name = "Creative Director"
-rol_representative = "Pedro Pidras"
-[[params.footer]]
-rol_email = "juanrisas@sicily.com"
-rol_name = "Chief executive officer"
-rol_representative = "Juan Risas"
-[[params.footer]]
-rol_email = "mateojosedulfo@Sicily.com"
-rol_name = "Bussines Director"
-rol_representative = "Mateo Josedulfo"
 [[params.social]]
 icon = "ti-facebook"
 link = "#"
 title = "facebook"
 [[params.social]]
 icon = "ti-twitter-alt"
-link = "https://twitter.com/cristianmarint"
+link = ""
 title = "twitter"
 [[params.social]]
 icon = "ti-skype"
